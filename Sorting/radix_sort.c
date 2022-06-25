@@ -25,14 +25,10 @@ void radixSort(int * const array, int const size)
         elemets_copied = 0;
         a = b = 0;
 
-        printf("round %d\n", j);
-
         for(int i = 0; i < size; i++)
         {   
             t = array[i]/m;
             
-            
-
             if(j < 2)
                 k = t%10;
             else
